@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <title>Mijn Woonplaats</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+    <style>
+    [class*="col-"] {
+      width: 100%;
+    }
+    @media only screen and (min-width: 768px) {
+      [class*="col-"] {
+        float: left;
+        padding: 15px;
+      }
+      .col-1 {width: 8.33%;}
+      .col-2 {width: 16.66%;}
+      .col-3 {width: 25%;}
+      .col-4 {width: 33.33%;}
+      .col-5 {width: 41.66%;}
+      .col-6 {width: 50%;}
+      .col-7 {width: 58.33%;}
+      .col-8 {width: 66.66%;}
+      .col-9 {width: 75%;}
+      .col-10 {width: 83.33%;}
+      .col-11 {width: 91.66%;}
+      .col-12 {width: 100%;}
+    }
+    .content{
+      width: 100%;
+      height: 200px;
+      background-color: green;
+      background-image: url(wanica.jpg);
+      background-size: 15%;
+      padding: 15px;
+    }
+    h1{
+      font-family: 'Fuzzy Bubbles', sans-serif;
+      font-size: 400%
+    }
+    ul{
+      height: auto;
+      background-color: green;
+    }
+    li{
+      width: auto;
+      min-height: inherit;
+      background-color: grey;
+      color: black;
+    }
+    .een{
+      background-color: red;
+      min-height: 400px;
+      color: white;
+    }
+    img{
+      float: right;
+      margin-right: 5px;
+    }
+    .last{
+      min-height: 100px;
+      background-color: lightgreen;
+      font-family: 'Fuzzy Bubbles', sans-serif;
+      font-size: 400%
+    }
+    @media only screen and (min-width: 1200px) {
+      .last{
+        background-color: yellow;
+      }
+    }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+        <header>
+          <h1>Wanica,Suriname</h1>
+        </header>
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <ul>
+          <li>De hoofdstad van Wanica is Lelydorp</li>
+          <li>Wanica ligt aan de Zuidwestgrens van Paramribo</li>
+          <li>De naam Wanica heeft een oude Inheemse herkomst</li>
+          <li>Klein landbouw ontwikkeld zich hier verder</li>
+          <li>Veel bewoners die niet in Paramaribo willen wonen maar wel dichtbij
+            trekken naar Wanica</li>
+        </ul>
+      </div>
+      <div class="col-9">
+        <section class="een">
+          <div>
+            <img src="vlinder.jpg" height="200" width="200" alt="vlinder">
+            <h2>Neotropical Butterfly Park</h2>
+            <p>Op slechts korte afstand van de binnenstad van Paramaribo, kunt u,
+            omringd door beeldschone Surinaamse vlinders, met volle teugen genieten
+            van een leerrijke, maar bovenal gezellige dag in een mooie natuurrijke
+            omgeving. Tientallen bontgekleurde tropische vlinders strijken in de
+            vlindertuin onbezorgd neer op de nieuwsgierige bezoekers, de geurige
+            bloesems en het tropisch fruit in hun idyllisch vlinderbos. Bezoek v
+            erder ook ons insectenmuseum, de expositie ruimte, de prachtig beschilderde
+            panoramazaal en geniet van het wonderbaarlijke proces van de vlinder
+            metamorfose tijdens de rondleiding door de kweekfaciliteiten van Neotropical
+            Insects.</p>
+          </div>
+          <div>
+            <img src="pikin.jpg" height="200" width="200" alt="pikin sranan">
+            <h2>Pikin Sranan</h2>
+            <p>Hoewel de bio-trend in Paramaribo een stuk minder is dan in Nederland,
+            kun je in het tropische land wél een 100% biologische boerderij bezoeken.
+            Op ongeveer 30 minuten van Paramaribo, in Lelydorp, vind je namelijk de
+            Pikin Sranan bio-farm. De bio-farm is een prachtige tuin in een rustige,
+            natuurlijke omgeving waar allerlei soorten groenten, fruiten, bloemen en
+            bomen groeien. Er staan onder meer theebomen waar de eigenaar, Dennis
+            Tauwnaar, verschillende biologische theeën van maakt. Dennis kreeg in
+            2014 de award voor de duurzaamste landbouwer van Suriname. Ook produceert
+            hij zelf al jarenlang kokosolie, iets wat in Nederland eigenlijk pas net
+            hip is geworden. Wil je deze farm bezoeken, boek dan een tour waar je een
+            rondleiding krijgt en alles leert over het biologisch verbouwen. Daarnaast
+            wordt je getrakteerd op een heerlijke, biologische lunch.</p>
+          </div>
+        </section>
+      </div>
+      <div class="col-12">
+        <footer class="last">
+          <p>The End</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
